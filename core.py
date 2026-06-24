@@ -46,7 +46,7 @@ class core:
 		return self.transaction_id
 	
 	def get_transaction(self,transactionid):
-		print("[+]Retreiving frecords")
+		print("[+]Retreiving ferecords")
 		transaction = self.web3.eth.getTransaction(transactionid)
 		self.data = transaction['input']
 		return self.data
